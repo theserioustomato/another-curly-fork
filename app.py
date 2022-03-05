@@ -30,18 +30,3 @@ def index():
 
 if __name__ == "__main__":
     app.run()
-
-
-# In[3]:
-
-
-from textblob import TextBlob
-
-#open text file in read mode
-f = open("sample.txt")
- 
-#read whole file to a string
-d = f.read()
-
-TextBlob(d).sentiment
-
